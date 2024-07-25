@@ -123,3 +123,8 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # alias tmux="TERM=screen-256color-bce tmux"
 
+alias notes="./.notes"
+
+alias v="nvim ."
+
+
