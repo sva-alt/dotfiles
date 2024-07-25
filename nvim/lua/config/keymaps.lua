@@ -4,6 +4,9 @@ local keymap = vim.keymap -- for conciseness
 
 keymap.set("i", "kj", "<ESC>", { desc = "Exit insert mode with kj" })
 
+keymap.set("n", "Tab", ">>", {desc = "tab in normal mode"})
+keymap.set("n", "<S-Tab>", ">>", {desc = "tab in normal mode"})
+
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
 -- increment/decrement numbers
