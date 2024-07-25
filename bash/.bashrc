@@ -121,10 +121,10 @@ fi
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# alias tmux="TERM=screen-256color-bce tmux"
-
+#Fast opening to my notes (bash script)
 alias notes="./.notes"
 
+#Fast opening to nvim
 alias v="nvim ."
 
 
