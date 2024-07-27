@@ -3,5 +3,3 @@ My name is santiago and this are some of my preferred settings when using some c
 
 Hope you like it!
 
-## TODO
-Install script
