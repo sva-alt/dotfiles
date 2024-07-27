@@ -119,12 +119,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+#eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 #Fast opening to my notes (bash script)
 alias notes="./.notes"
 
 #Fast opening to nvim
 alias v="nvim ."
+
+#Fast opening to tmux
+alias t="tmux"
 
 

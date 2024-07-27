@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 #This is the folder where I have stored my dotfiles repo, you can change this variable to the absolute path of your dotfiles repo.
-dotfiles_folder=~/Documentes/notes/dotfiles
+dotfiles_folder=~/Documents/notes/1_Proyects/dotfiles
 
 #update .bashrc
 cp ${dotfiles_folder}/bash/.bashrc ~
@@ -13,6 +13,6 @@ cp ${dotfiles_folder}/vim/.vimrc ~
 cp ${dotfiles_folder}/tmux/.tmux.conf ~
 
 #update nvim files
-cp ${dotfiles_folder}/nvim/ ~/.config/ 
+cp -r ${dotfiles_folder}/nvim/ ~/.config/ 
 
 
