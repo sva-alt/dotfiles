@@ -119,7 +119,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
 #Fast opening to my notes (bash script)
 alias notes="./.notes"
