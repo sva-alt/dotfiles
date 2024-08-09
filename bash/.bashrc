@@ -125,10 +125,10 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 alias notes="./.notes"
 
 #Fast opening to nvim
-alias n="nvim ."
+alias n="nvim"
 
 #Fast opening to vim
-alias v="vim ."
+alias v="vim"
 
 #Fast opening to tmux
 alias t="tmux"
