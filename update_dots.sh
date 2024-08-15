@@ -15,6 +15,6 @@ cp ${dotfiles_folder}/tmux/.tmux.conf ~
 #update nvim files
 cp -r ${dotfiles_folder}/nvim/ ~/.config/ 
 
-echo done
+echo done #strictly for knowledge purposes
 
 
