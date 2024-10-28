@@ -11,7 +11,6 @@ filetype indent on " Load an indent file for the detected type
 
 syntax on " Pretty colors
 
-set cursorline " Cursor line
 set shiftwidth=4 " Shift+Tab does 4 characters
 set tabstop=4 " Tab does 4 characters
 set expandtab " Space characters instead of tab characters

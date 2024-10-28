@@ -23,7 +23,9 @@ return {
       },
     })
 
-    -- require('telescope').load_extension('fzf')  -- Not Using fzf because it's breaking with current gcc implementation or I'm stupid. See log files.
+    -- require('telescope').load_extension('fzf')  
+        -- Not Using fzf because it's breaking with current gcc implementation
+        -- or I'm stupid. See log files.
     -- set keymaps
     local keymap = vim.keymap -- for conciseness
 
