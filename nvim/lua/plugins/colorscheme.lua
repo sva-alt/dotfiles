@@ -1,8 +1,8 @@
 return {
-  "rebelot/kanagawa.nvim",
-  name = "kanagawa",
+  'morhetz/gruvbox',
+  name = "gruvbox",
   priority = 1000,
   config = function()
-    vim.cmd("colorscheme kanagawa")
+    vim.cmd("colorscheme gruvbox")
   end
 }
