@@ -133,4 +133,13 @@ alias v="vim"
 #Fast opening to tmux
 alias t="tmux"
 
+#Fast clear
+alias c='clear'
 
+#ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+#Better copy
+alias cpv='rsync -ah --info=progress2'
