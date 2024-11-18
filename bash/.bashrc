@@ -121,8 +121,10 @@ fi
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
-#Fast opening to my notes (bash script)
-alias notes="./.notes"
+#Fast opening to my notes 
+alias notes="cd Notes/"
+alias inbox="cd Notes/0_inbox && n ."
+alias proyects="cd Notes/1_proyects && n ."
 
 #Fast opening to nvim
 alias n="nvim"
