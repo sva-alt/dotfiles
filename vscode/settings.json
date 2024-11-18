@@ -1,0 +1,52 @@
+{
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": false,
+    "window.menuBarVisibility": "toggle",
+    "gruvboxMaterial.lightContrast": "hard",
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["k", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["<leader>", "n", "h"],
+        "commands": [":nohl"]
+        },
+        {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+        },
+        {
+        "before": ["H"],
+        "commands": ["^"]
+        },
+        {
+        "before": ["L"],
+        "commands": ["$"]
+        }
+
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    
+    // To improve performance
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "workbench.iconTheme": "eq-material-theme-icons-light"
+
+}
