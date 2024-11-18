@@ -1,5 +1,10 @@
 #!/usr/bin/bash
 
+rm ~/.bashrc
+rm ~/.vimrc
+rm ~/.tmux.conf
+rm -r ~/.config/nvim/
+
 # cd into path were script is executed
 if [[ $BASH_SOURCE = */* ]]; then
     cd -- "${BASH_SOURCE%/*}/" || exit
