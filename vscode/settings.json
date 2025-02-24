@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.colorTheme": "Monokai Pro",
     "editor.fontSize": 13,
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": false,
@@ -47,6 +47,12 @@
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
-    "workbench.iconTheme": "eq-material-theme-icons-light"
-
+    "editor.tabSize": 2,
+    "vim.cursorStylePerMode.insert": "underline-thin",
+    "vim.cursorStylePerMode.normal": "block",
+    "editor.rulers": [
+        80
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "eq-material-theme-icons-darker"
 }
