@@ -55,4 +55,5 @@
     ],
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.iconTheme": "eq-material-theme-icons-darker"
+    "workbench.sideBar.location": "right"
 }

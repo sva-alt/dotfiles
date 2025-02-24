@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-
 code --install-extension equinusocio.vsc-material-theme-icons
 code --install-extension vscodevim.vim
 code --install-extension ms-python.python
