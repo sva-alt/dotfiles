@@ -8,6 +8,8 @@ set nocompatible " Disable compability with vi
 filetype on " Enable file type detection
 filetype plugin on " Enable plugins for the detected filetype
 filetype indent on " Load an indent file for the detected type
+set cursorline " HIghlight cursor line underneath the cursor horizontally
+
 
 syntax on " Pretty colors
 
